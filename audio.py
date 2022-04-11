@@ -1,5 +1,4 @@
 from gtts import gTTS
-from playsound import playsound
 
 # запись и чтение файла mp3
 text = "Hey, I'm Hope. What you want? Call the team!"

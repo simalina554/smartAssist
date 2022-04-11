@@ -35,6 +35,10 @@ def make(task):
         music(task)
     elif 'whats day' in task:
         print(datetime.date.today())
+    elif 'youtube' in task:
+        spr = input()
+        url = f'https://www.youtube.com/results?search_query={spr}'
+        webbrowser.open(url)
 
 
 def music(task):
